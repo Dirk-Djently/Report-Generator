@@ -76,21 +76,18 @@ while submit:
         gui.moveTo(target[0], target[1], 0.5)
         time.sleep(3)
         gui.click()
+        time.sleep(0.5)
 # 0.5 seconds between the click and any typing to ensure the steps remain in order in case of a short client lag
         if target == name_box:
-            time.sleep(0.5)
             gui.write(name())
             time.sleep(3)
         elif target == email_box:
-            time.sleep(0.5)
             gui.write(barnum.create_email())
             time.sleep(3)
         elif target == location_box:
-            time.sleep(0.5)
             gui.write(location())
             time.sleep(3)
         elif target == info_box:
-            time.sleep(0.5)
             gui.write(
                 f'{events[random.randint(0, 4)]} at {barnum.create_street()}')
             time.sleep(3)
@@ -98,6 +95,5 @@ while submit:
             reports += 1
             print(f'{reports} reports submitted')
         elif target == url_box:
-            time.sleep(0.5)
             gui.press("enter")
-            time.sleep(8)
+            time.sleep(5)
