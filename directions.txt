@@ -1,12 +1,12 @@
 Navigate to defendkidstx.com and place the browser window so that it
-and this window are both visible. The locations of several click events
+and this window are both fully visible. The locations of several click events
 will need to be recorded, so once you situate the browser window it should not
 be moved or else the program will not work correctly. There are seven locations
 to be recorded: the "report" button, the "name" text box, the "email address"
 text box, the "location of show" text box, the "other information" text box,
 the "submit" button, and the url text box of your browser, in that exact order.
 After beginning, prompts will appear telling you where to click. You may type
-up and submit a report while doing this if you wish, but is not necessary.
+up and submit a report while doing this if you wish, but it is not necessary.
 Do not click on anything besides those locations during the prompts or else
 the program will not work and you will need to start over. begin by pressing
 any key (except "q") here and then press "enter/return". or enter "q" here to quit. 
