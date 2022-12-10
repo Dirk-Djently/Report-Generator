@@ -96,4 +96,4 @@ while submit:
             print(f'{reports} reports submitted')
         elif target == url_box:
             gui.press("enter")
-            time.sleep(5)
+            time.sleep(10)
