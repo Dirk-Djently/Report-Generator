@@ -5,7 +5,7 @@ reqs = subprocess.check_output([sys.executable, '-m', 'pip',
                                 'freeze'])
 installed_packages = [r.decode().split('==')[0] for r in reqs.split()]
 
-if 'pynput' in installed_packages and 'PyAutoGUI' in installed_packages and 'barnum' in installed_packages and 'keyboard' in installed_packages:
+if 'pynput' in installed_packages and 'PyAutoGUI' in installed_packages and 'barnum' in installed_packages:
     print('required packages already in place\n')
 
 else:
